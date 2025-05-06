@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://b1hoo2uqbpsb"]
+
+[ext_resource type="FontFile" uid="uid://dtlmgme1npsql" path="res://assets/1/KnightWarrior-w16n8.otf" id="1_mfknt"]
+
+[resource]
+Label/font_sizes/font_size = 23
+Label/fonts/font = ExtResource("1_mfknt")

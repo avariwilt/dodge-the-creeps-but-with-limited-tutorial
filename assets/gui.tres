@@ -1,0 +1,36 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://ddqlsy81m3qfi"]
+
+[ext_resource type="Texture2D" uid="uid://cn1mrlec04nex" path="res://assets/UI_Flat_Bar07a.png" id="1_61mn4"]
+[ext_resource type="Texture2D" uid="uid://bkfer8qh5urk4" path="res://assets/UI_Flat_Frame03a.png" id="1_a2r05"]
+[ext_resource type="Texture2D" uid="uid://cj77miut5uuj8" path="res://assets/UI_Flat_ImadeChanges1.png" id="1_am5cq"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_x3gl6"]
+texture = ExtResource("1_am5cq")
+texture_margin_left = 2.0
+texture_margin_top = 5.89744
+texture_margin_right = 2.0
+region_rect = Rect2(16.6741, 51.6322, 970.46, 703.753)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oyu1h"]
+texture = ExtResource("1_61mn4")
+texture_margin_left = 1.0
+texture_margin_top = 1.0
+texture_margin_right = 1.0
+texture_margin_bottom = 1.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rrbax"]
+bg_color = Color(0.918025, 0.59657, 0.727651, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7rrh1"]
+texture = ExtResource("1_a2r05")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+region_rect = Rect2(0, 0, 96, 64)
+
+[resource]
+Button/styles/hover = SubResource("StyleBoxTexture_x3gl6")
+Button/styles/normal = SubResource("StyleBoxTexture_oyu1h")
+Button/styles/pressed = SubResource("StyleBoxFlat_rrbax")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_7rrh1")
